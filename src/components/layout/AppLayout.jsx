@@ -1,6 +1,6 @@
 import { Outlet, useLocation } from "react-router-dom";
 import Sidebar    from "./Sidebar";
-
+import MobileNav from "./MobileNav";
 import { useStreak }   from "../../hooks/useStreak";
 import { useIsMobile } from "../../hooks/useIsMobile";
 import { useTheme }    from "../../store/ThemeContext";
