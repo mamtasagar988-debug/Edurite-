@@ -1,0 +1,29 @@
+Edurite/
+├── public/
+├── src/
+│   ├── assets/             # fonts, images, icons
+│   ├── components/
+│   │   ├── ui/             # Button, Card, Badge, Modal, Input (shared primitives)
+│   │   ├── layout/         # Sidebar.jsx, Header.jsx, PageWrapper.jsx
+│   │   └── shared/         # AvatarCircle.jsx, ProgressBar.jsx, StreakCalendar.jsx
+│   ├── features/
+│   │   ├── dashboard/      # Dashboard.jsx (what we built)
+│   │   ├── pomodoro/       # PomodoroTimer.jsx, TimerControls.jsx
+│   │   ├── flashcards/     # FlashcardDeck.jsx, CardEditor.jsx, StudySession.jsx
+│   │   ├── goals/          # GoalsList.jsx, GoalForm.jsx
+│   │   ├── friends/        # FriendsList.jsx, FriendSearch.jsx
+│   │   ├── chat/           # Chatroom.jsx, MessageBubble.jsx
+│   │   ├── leaderboard/    # Leaderboard.jsx, RankCard.jsx
+│   │   └── ai-tutor/       # AiTutor.jsx, ChatInterface.jsx
+│   ├── hooks/              # usePomodoro.js, useStreak.js, useAI.js
+│   ├── store/              # Zustand or Redux slices (auth, todos, goals, etc.)
+│   ├── services/
+│   │   ├── api.js          # Axios base config
+│   │   ├── anthropic.js    # AI tutor API calls
+│   │   └── socket.js       # WebSocket for chat/friends
+│   ├── utils/              # formatTime.js, dateHelpers.js
+│   ├── styles/             # globals.css, tokens.css
+│   ├── App.jsx
+│   └── main.jsx
+├── .env
+└── package.json
