@@ -176,7 +176,7 @@ function GoalModal({ initial, C, onSave, onClose }) {
           </div>
           <p style={{ margin:"0 0 8px", fontSize:13, fontWeight:600 }}>Aspiration *</p>
           <input value={title} onChange={e=>setTitle(e.target.value)}
-            placeholder="e.g. Become a Nuclear Scientist, Doctor, IAS Officer…"
+            placeholder="e.g. Become a Nuclear Scientist, Doctor, Writer, Artist, IPS officer, Director…"
             style={{ width:"100%", boxSizing:"border-box", marginBottom:14,
               background:C.bg, border:`1px solid ${C.border}`, borderRadius:8,
               padding:"10px 12px", color:C.text, fontSize:15, fontWeight:700, outline:"none" }}/>

@@ -194,10 +194,6 @@ export default function Login() {
             <div style={{ width:28, height:28, borderRadius:7, background:"#EC4899",
               display:"flex", alignItems:"center", justifyContent:"center",
               fontSize:11, fontWeight:800, color:"#fff" }}>PS</div>
-            <div>
-              <p style={{ margin:0, fontSize:12, fontWeight:700 }}>Priya Sharma</p>
-              <p style={{ margin:0, fontSize:11, color:C.muted }}>Grade 12 · Science</p>
-            </div>
           </div>
         </div>
       </div>
