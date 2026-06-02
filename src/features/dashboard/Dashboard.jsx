@@ -8,7 +8,8 @@ import {
 } from "lucide-react";
 import { useGoals } from "../../hooks/useGoals";
 import { useLeaderboard } from "../../hooks/useLeaderboard";
-import { useFriends } from "../../hooks/useFriends";  
+// ✅ Correct - goes up two levels to src/, then into hooks/
+import { useFriends } from "../../hooks/useFriends";
 import { useSessions } from "../../hooks/useSessions";
 import { useTheme } from "../../store/ThemeContext";
 import { useIsMobile } from "../../hooks/useIsMobile"; // ✅ Added import
