@@ -1,7 +1,7 @@
 import { Outlet, useLocation } from "react-router-dom";
 import Sidebar    from "./Sidebar";
 // AppLayout.jsx
-import MobileNav from "./MobileNav";
+import MobileNav from "./MobileNav";  
 import { useStreak }   from "../../hooks/useStreak";
 import { useIsMobile } from "../../hooks/useIsMobile";
 import { useTheme }    from "../../store/ThemeContext";

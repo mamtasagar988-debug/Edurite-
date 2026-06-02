@@ -4,10 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "prebuild-win": "echo 'Skipping chmod on Windows'",
-  "prebuild-unix": "chmod +x node_modules/.bin/vite 2>/dev/null || true",
-  "prebuild": "npm run prebuild-win",
-  "vercel-build": "npm run prebuild && npm run build",
   "dev": "vite",
   "build": "vite build",
   "lint": "eslint .",
